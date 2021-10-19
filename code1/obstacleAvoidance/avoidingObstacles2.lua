@@ -39,10 +39,10 @@ n_steps = n_steps + 1
     	else
     		if angle > 0 then
     		--se l'angolo è positivo (ostacolo a sinistra) giro a destra
-    		--ruoto a sinistra
+    		
     		robot.wheels.set_velocity(MAX_VELOCITY, MIN_VELOCITY)
     		else
-    		--ruoto a destra
+    		--altrimenti giro a sinistra
     		robot.wheels.set_velocity(MIN_VELOCITY, MAX_VELOCITY)
     		end
     		
