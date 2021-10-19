@@ -4,6 +4,12 @@
 --/* The obstacle is on the left, turn right *
 -- /* The obstacle is on the right, turn left */
 -- There isn't any obstacle in front, go straight
+
+--COMMENTO PROF
+--Quando ho visto che aveva basato il movimento
+--sulla classificazione di alcuni casi ho temuto che lo -------spostamento non
+--fosse morbido, invece sia per la sua scelta dei parametri ---sia pe la
+frequenza di aggiornamento il comportamento è fluido.
 MAX_VELOCITY = 20
 MIN_VELOCITY = MAX_VELOCITY/4
 MOVE_STEPS = 15
