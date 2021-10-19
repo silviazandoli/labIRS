@@ -9,7 +9,7 @@
 --Quando ho visto che aveva basato il movimento
 --sulla classificazione di alcuni casi ho temuto che lo -------spostamento non
 --fosse morbido, invece sia per la sua scelta dei parametri ---sia pe la
-frequenza di aggiornamento il comportamento � fluido.
+--frequenza di aggiornamento il comportamento è fluido.
 MAX_VELOCITY = 20
 MIN_VELOCITY = MAX_VELOCITY/4
 MOVE_STEPS = 15
@@ -77,7 +77,7 @@ function step()
 		turn_left()
 	  end
 	else
-	--se l'oggetto non è di fronte a te vai avanti
+	--se l'oggetto non Ã¨ di fronte a te vai avanti
 	    go_straight()
 	end
 end
